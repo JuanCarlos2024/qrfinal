@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <img class="logo-duoc" src="assets/images/Duoc.jpg" alt="duoc">
+    <ion-title>ASISTENCIA DUOC UC</ion-title>
+    {{ fechaHoy }}
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [style.visibility]="content_visibility">
+
+  <ion-item  class="contenedorfecha">
+    <p> Bienvenido, {{ userName }}</p>
+  </ion-item>
+
+  <ion-button expand="block" class="ion-margin" (click)="startScan()"> Escanear código QR</ion-button>
+
+  <ion-item *ngIf="scannedResult">
+    <ion-label class="ion-text-wrap">Resultado: {{scannedResult}}</ion-label>
+  </ion-item>
+  
+
+
+    <ion-button (click)="SalirLogin()">Salir</ion-button>
+
+    
+
+
+</ion-content>

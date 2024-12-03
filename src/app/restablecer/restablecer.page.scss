@@ -1,0 +1,47 @@
+.icono-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px; 
+    height: 40vh;
+    position:relative;
+    left: 580px;
+  }
+
+  .contenedor-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    width: 300px; 
+    margin: 0 auto;
+  }
+
+  .boton{
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    left: 587px;
+}
+
+  /* Estilo para el logo de Duoc */
+  .logo-duoc {
+    max-width: 80px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 10px; /* Opcional: agrega espacio entre el logo y el texto */
+    vertical-align: middle; /* Alinea el logo con el texto */
+  }
+
+  .volver{
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    left: 1000px;
+}
+
+ion-toolbar {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  text-align: center;
+}

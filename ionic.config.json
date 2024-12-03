@@ -1,0 +1,7 @@
+{
+  "name": "caso-qr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,40 @@
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  width: 300px; 
+  margin: 0 auto;
+}
+
+
+/* Ajustamos el estilo de ion-toolbar para centrar el contenido */
+ion-toolbar {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  text-align: center;
+}
+
+/* Estilo para el logo de Duoc */
+.logo-duoc {
+  max-width: 85px; /* Ajusta el tamaño del logo */
+  height: auto;
+  margin-right: 5px; /* Opcional: agrega espacio entre el logo y el texto */
+  vertical-align: middle; /* Alinea el logo con el texto */
+}
+
+/* Estilos para el contenedor de la fecha */
+.contenedorfecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+

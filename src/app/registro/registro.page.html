@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <img class="logo-duoc" src="assets/images/Duoc.jpg" alt="duoc">
+    <ion-title>Registrar usuario asistencia Duoc UC</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+ 
+  <ion-item>
+    <ion-label position="floating">Usuario</ion-label>
+    <ion-input type="email" [(ngModel)]="user.email" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password" required></ion-input>
+  </ion-item>
+
+  <ion-button (click)="registro(user)">Registrarse</ion-button>
+
+  <ion-button (click)="botonVolver()">Volver</ion-button>
+
+</ion-content>

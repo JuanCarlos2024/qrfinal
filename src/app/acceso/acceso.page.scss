@@ -1,0 +1,61 @@
+ion-header {
+    --border: none; /* Elimina los bordes */
+  }
+
+  
+.boton{
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    left: 587px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  width: 300px; 
+  margin: 0 auto;
+}
+
+.icono-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -80px; 
+  height: 40vh;
+  position:relative;
+  left: 580px;
+}
+
+.enlace-cont {
+  display: flex;
+  justify-content: flex-end; /* Alinea el enlace a la derecha del contenedor */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  margin-top: 10px; /* Ajusta el margen superior si es necesario */
+  position: relative;
+  left: 600px;
+}
+
+.enlace-cont a {
+  color: darkslategrey; /* Cambia el color del texto del enlace */
+  text-decoration: none; /* Elimina el subrayado del enlace si lo deseas */
+}
+
+/* Ajustamos el estilo de ion-toolbar para centrar el contenido */
+ion-toolbar {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  text-align: center;
+}
+
+/* Estilo para el logo de Duoc */
+.logo-duoc {
+  max-width: 80px; /* Ajusta el tamaño del logo */
+  height: auto;
+  margin-right: 10px; /* Opcional: agrega espacio entre el logo y el texto */
+  vertical-align: middle; /* Alinea el logo con el texto */
+}
+

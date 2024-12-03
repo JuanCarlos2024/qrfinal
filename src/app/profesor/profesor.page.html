@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <img class="logo-duoc" src="assets/images/Duoc.jpg" alt="duoc">
+    <ion-title>Bienvenido a asistencia Duoc UC</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Mostrar el nombre del usuario -->
+  <ion-item class="Bienvenido-page">
+    <p>Bienvenido, {{ userName }}</p>
+  </ion-item>
+
+  <!-- Selección de asignatura -->
+  <mat-radio-group aria-label="Select an option">
+    <ion-item class="asignatura-page">
+      <p>Elija una asignatura</p>
+    </ion-item>
+
+    <mat-radio-button value="1">App Móvil</mat-radio-button>
+    <mat-radio-button value="2">Programación Web</mat-radio-button>
+  </mat-radio-group>
+
+  <!-- Mostrar QR -->
+  <ion-card-content class="ion-text-center">
+    <ion-card-content>
+      <qrcode [qrdata]="qrCodeString" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+    </ion-card-content>
+  </ion-card-content>
+
+</ion-content>
